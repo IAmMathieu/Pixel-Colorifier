@@ -1,0 +1,109 @@
+body {
+    box-sizing: border-box;
+}
+
+.top {
+    background-color: #3148AD;
+    width: 100vw;
+    height: 20vh;
+}
+
+.tailleGrille {
+    margin: 0px auto;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.pixelSize {
+    border: none;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+}
+.caseSize {
+    border: none;
+    border-radius: 8px 0 0 8px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sizeButton {
+    border: none;
+    border-radius: 0 8px 8px 0;
+    background-color: #9B68E4;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.bottom {
+    background-color: #5c58cb;
+    width: 100vw;
+    min-height: 80vh;
+}
+
+.casesContainer {
+    padding: 100px 0;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    justify-content: center;
+}
+
+.caseStyle {
+    width: 50px;
+    height: 50px;
+}
+
+.styleContainer {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.plain {
+    border: 3px solid white;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: silver;
+}
+
+.empty {
+    border: 3px solid white;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: blue;
+
+}
+
+.light {
+    border: 3px solid white;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: gold;
+
+}
+
+.highlight {
+    border: 3px solid white;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: lightgreen;
+}
